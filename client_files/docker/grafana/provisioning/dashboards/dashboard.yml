@@ -1,0 +1,11 @@
+apiVersion: 1
+ 
+providers:
+  - name: 'Thermostat Simulation'
+    folder: 'Dashboards'
+    type: file
+    disableDeletion: true
+    updateIntervalSeconds: 5
+    allowUiUpdates: true
+    options:
+      path: /etc/grafana/provisioning/dashboards

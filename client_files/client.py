@@ -15,13 +15,13 @@ class DataHandler(object):
       if str(node) == 'ns=2;s=V1.Temperature':
          global temp_val
          temp_val = val
-      elif str(node) == 'ns=2;s=V1.Temperature':
+      elif str(node) == 'ns=2;s=V1.State':
          global state_val
          state_val = val  
-      elif str(node) == 'ns=2;s=V1.Temperature':
+      elif str(node) == 'ns=2;s=V1.Target':
          global target_val
          target_val = val  
-      elif str(node) == 'ns=2;s=V1.Temperature':
+      elif str(node) == 'ns=2;s=V1.Power':
          global power_val
          power_val = val
 
